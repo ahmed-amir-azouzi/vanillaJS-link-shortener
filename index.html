@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="custom url shortener">
+    <meta name="keywords" content="url, shorten, shortener">
+    <title>URL Shortener</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <div class="header-logo" onClick="document.location.reload(true)">
+            <h2>DUMMY</h2>
+            <p>url shortener</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-container">
+            <h2>Enter your url and make it tiny</h2>
+            <div class="shorten-container">
+                <input type="url" class="shorten-input" placeholder="http(s)://(www.)example.com(/path-to-directory)" required>
+                <button class="shorten-btn">Shorten</button>
+            </div>
+
+            <div class="copy-container" >
+                <input type="url" class="copy-input" style="display:none" readonly>
+                <button class="copy-btn" style="display:none" data-clipboard-target=".copy-input">Copy</button>
+                <div class="form-message"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2022</p>
+            <p>create by <a href="https://github.com/ahmed-amir-azouzi" target="_blank">Ahmed Amir Azouzi</a></p>
+            <p>supported by <a href="https://developers.rebrandly.com/reference/createlink" target="_blank">Rebrandly API</a></p>
+        </div>
+    </footer>
+
+    <!-- ClipboardJs API for copying links to clipboard -->
+    <script src="./node_modules/clipboard/dist/clipboard.min.js"></script> 
+    
+    <script src="app.js"></script>
+</body>
+</html>
