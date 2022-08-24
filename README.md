@@ -7,7 +7,7 @@ a vanilla JS web app with minimal design and basic features (shorten url and cop
 
 ### Live Demo Link
 
-![] (link_shortener.gif)
+![](link_shortener.gif)
 
 
 ### Tech Stack
