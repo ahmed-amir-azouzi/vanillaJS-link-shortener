@@ -6,7 +6,8 @@ a vanilla JS web app with minimal design and basic features (shorten url and cop
 
 
 ### Live Demo Link
-
+https://ahmed-amir-azouzi.github.io/vanillaJS-link-shortener/
+>
 ![](link_shortener.gif)
 
 
