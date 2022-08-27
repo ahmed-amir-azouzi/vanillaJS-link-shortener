@@ -79,7 +79,7 @@ shortenBtn.addEventListener("click", function() {
 
 
 // Set copy-to-clipboard functionality to the copyBtn 
-var clipboard = new ClipboardJS(".copy-btn");
+var clipboard = new ClipboardJS('.copy-btn');
 
 
 clipboard.on("success", function(e) {
